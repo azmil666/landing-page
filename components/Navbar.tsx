@@ -76,7 +76,7 @@ export const Navbar: React.FC = () => {
         {/* === Logo Section === */}
         <div className="flex items-center gap-3 cursor-pointer z-50">
            <img 
-             src="/gdg svg.svg" 
+             src="/gdg-svg.svg" 
              alt="GDG Logo" 
              className="h-8 w-auto object-contain"
            />
