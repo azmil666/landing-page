@@ -76,12 +76,29 @@ export const InfoSection: React.FC = () => {
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-gray-50 rounded-2xl p-8 hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-100 group"
-            >
+              transition={{
+                delay: index * 0.08,
+                duration: 0.35,
+                ease: [0.22, 1, 0.36, 1], // smooth but fast
+              }}
+
+              
+              whileHover={{
+                y: -10,
+                scale: 1.02,
+                transition: {
+                  duration: 0.18,
+                  ease: "easeOut",
+                },
+              }}
+
+                  whileTap={{ scale: 0.99 }}
+                  className="bg-gray-50 rounded-2xl p-8 hover:bg-white hover:shadow-xl border border-transparent hover:border-gray-100 group cursor-pointer will-change-transform"
+                >
+
               <div
                className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}
                 >
