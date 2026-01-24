@@ -66,12 +66,12 @@ const GooglePill3D = ({ top, left, rotate, delay }: { top: string, left: string,
         }}
       >
         {/* SVG Logo Brackets */}
-        <svg width="40" height="24" viewBox="0 0 40 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="opacity-90">
-            <path d="M12 6L4 12" stroke="#EA4335" strokeWidth="3.5" strokeLinecap="round"/> 
-            <path d="M4 12L12 18" stroke="#4285F4" strokeWidth="3.5" strokeLinecap="round"/> 
-            <path d="M28 6L36 12" stroke="#34A853" strokeWidth="3.5" strokeLinecap="round"/> 
-            <path d="M36 12L28 18" stroke="#FBBC05" strokeWidth="3.5" strokeLinecap="round"/> 
-        </svg>
+        <img
+          src="/gdg-svg.svg"
+          alt="GDG Logo"
+          className="w-10 h-10 object-contain"
+        />
+
 
         {/* Glossy Reflection Overlay */}
         <div className="absolute top-1 left-3 right-3 h-4 bg-gradient-to-b from-white/90 to-transparent rounded-full opacity-70 blur-[0.5px] pointer-events-none" />

@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { InfoSection } from './components/InfoSection';
 import { Footer } from './components/Footer';
+import { MascotSection} from './components/MascotSection'
 
 const App: React.FC = () => {
   return (
@@ -10,8 +11,11 @@ const App: React.FC = () => {
       <Navbar />
       <Hero />
       <InfoSection />
+       
       {/* Additional placeholder spacer to allow content to scroll nicely over the fixed hero if needed */}
       <div className="bg-white h-24"></div> 
+      <MascotSection /> 
+     
       <Footer />
     </main>
   );
