@@ -1,4 +1,13 @@
+<p align="center">
+  <img src="./public/gdg-svg.svg" alt="GDG on Campus Logo" width="120" />
+</p>
+
 # GDG on Campus — Landing Page
+![Vercel](https://img.shields.io/badge/deployed-vercel-black)
+![React](https://img.shields.io/badge/react-18-blue)
+![TypeScript](https://img.shields.io/badge/typescript-strict-blue)
+![Tailwind](https://img.shields.io/badge/tailwind-css-38bdf8)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 A modern, interaction-focused landing page designed for a **Google Developer Groups (GDG) on Campus** community.
 Built to showcase community vision, programs, and events through **clean layout, subtle motion, and Google-inspired UI polish**.
@@ -107,6 +116,13 @@ Google Gemini was used **only during early ideation** to:
 
 All final **design decisions, animations, and code** were manually implemented.
 
+---
+## Accessibility & Performance
+
+- Semantic HTML structure for better readability
+- Motion kept subtle to avoid user fatigue
+- Responsive layouts tested across breakpoints
+- Animations scoped to interactive elements only
 ---
 
 ## License
