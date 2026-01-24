@@ -5,6 +5,7 @@ import { InfoSection } from './components/InfoSection';
 import { Footer } from './components/Footer';
 import { MascotSection} from './components/MascotSection'
 
+
 const App: React.FC = () => {
   return (
     <main className="bg-white min-h-screen selection:bg-google-blue selection:text-white overflow-x-hidden">
