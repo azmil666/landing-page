@@ -12,6 +12,10 @@
 A modern, interaction-focused landing page designed for a **Google Developer Groups (GDG) on Campus** community.
 Built to showcase community vision, programs, and events through **clean layout, subtle motion, and Google-inspired UI polish**.
 
+## Visual Overview
+
+![Landing Page Screenshot](./public/preview.png)
+
 🔗 **Live Demo:** [https://landing-page-pink-three-57.vercel.app](https://landing-page-pink-three-57.vercel.app)
 
 ---
