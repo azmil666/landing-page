@@ -80,7 +80,11 @@ export const InfoSection: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <section id="about" className="py-24 bg-white relative z-20 overflow-hidden">
+    <section
+        id="about"
+        className="pt-24 pb-16 sm:py-24 bg-white relative z-20 overflow-hidden"
+      >
+
       <div className="max-w-7xl mx-auto px-6">
 
         {/* ---------- HEADER (UNCHANGED) ---------- */}
@@ -145,12 +149,13 @@ export const InfoSection: React.FC = () => {
               >
                 {/* TV SHELL */}
                 <div
-                  className="relative p-3 rounded-3xl border-4 bg-white"
-                  style={{
-                    aspectRatio: "4 / 5",
-                    borderColor: isActive ? feature.color : "#E5E7EB",
-                  }}
-                >
+                    className="relative p-3 rounded-3xl border-4 bg-white
+                              aspect-auto sm:[aspect-ratio:4/5]"
+                    style={{
+                      borderColor: isActive ? feature.color : "#E5E7EB",
+                    }}
+                  >
+
                   <div className="flex gap-3 h-full justify-center">
 
 
@@ -158,7 +163,7 @@ export const InfoSection: React.FC = () => {
                   <div
                 className="relative flex-1 max-w-[280px] sm:max-w-none
                           rounded-xl border overflow-hidden
-                          p-5 sm:p-6
+                          p-4 sm:p-6
                           flex flex-col items-center text-center"
 
                         style={{
@@ -181,8 +186,7 @@ export const InfoSection: React.FC = () => {
                           className="
                         relative z-10 h-full
                         flex flex-col items-center text-center
-                        justify-center
-                        sm:justify-start
+                        justify-start
                       "
 
                         >
