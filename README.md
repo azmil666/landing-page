@@ -14,7 +14,7 @@ Built to showcase community vision, programs, and events through **clean layout,
 
 ## Visual Overview
 
-![Landing Page Screenshot](./public/preview.png)
+![Landing Page Screenshot](./preview.png)
 
 🔗 **Live Demo:** [https://landing-page-pink-three-57.vercel.app](https://landing-page-pink-three-57.vercel.app)
 
