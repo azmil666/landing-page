@@ -16,7 +16,7 @@ Built to showcase community vision, programs, and events through **clean layout,
 
 ![Landing Page Screenshot](./preview.png)
 
-🔗 **Live Demo:** [https://landing-page-pink-three-57.vercel.app](https://landing-page-pink-three-57.vercel.app)
+🔗 **Live Demo:** [GDG on Campus – MEC](https://gdg-mec.vercel.app)
 
 ---
 
