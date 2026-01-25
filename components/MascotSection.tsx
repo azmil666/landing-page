@@ -3,9 +3,27 @@ import { motion } from "framer-motion";
 
 export const MascotSection: React.FC = () => {
   return (
-    <section className="relative bg-white py-32 overflow-hidden">
+    <section
+        className="
+          relative bg-white
+          pt-16 pb-32          
+          sm:pt-24 sm:pb-32   
+          md:pt-28 md:pb-44  
+          overflow-hidden
+        "
+      >
+
+
+
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div className="
+            grid grid-cols-1 md:grid-cols-2
+            gap-12 md:gap-16
+            items-center
+            text-center md:text-left
+            translate-y-0 md:-translate-y-6
+          ">
+
           
           {/* === Mascot Illustration === */}
           <motion.div

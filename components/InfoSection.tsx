@@ -81,9 +81,16 @@ export const InfoSection: React.FC = () => {
 
   return (
     <section
-        id="about"
-        className="pt-24 pb-16 sm:py-24 bg-white relative z-20 overflow-hidden"
-      >
+          id="about"
+          className="
+            pt-20
+            pb-8
+            sm:pt-24 sm:pb-16
+            bg-white relative z-20 overflow-hidden
+          "
+
+        >
+
 
       <div className="max-w-7xl mx-auto px-6">
 
